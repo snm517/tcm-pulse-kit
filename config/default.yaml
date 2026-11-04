@@ -1,0 +1,36 @@
+# 默认配置文件
+
+preprocessor:
+  fs: 1000.0
+  lowcut: 0.5
+  highcut: 30.0
+  baseline_lowcut: 20.0
+
+feature_extractor:
+  fs: 1000.0
+  features:
+    - peak_amp
+    - rise_ms
+    - fall_ms
+    - fwhm_ms
+    - area
+    - length
+    - cv_peak_amp
+    - cycle_correlation
+
+relative_engine:
+  extreme_value_threshold: 3.0
+  max_z_score: 3.0
+  min_std: 1.0e-10
+
+shibian_engine:
+  config_path: "knowledge/wutai_weights.yaml"
+
+quality_gate:
+  snr_threshold: 10.0
+  spectral_flatness_threshold: 0.3
+  low_freq_noise_threshold: 0.1
+
+wuxing:
+  use_networkx: true
+  max_path_depth: 3
