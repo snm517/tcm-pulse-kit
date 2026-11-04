@@ -1,0 +1,30 @@
+# 脉象部位映射
+左寸:
+  element: 火
+  organ: 心
+  hand: 左手
+
+左关:
+  element: 木
+  organ: 肝
+  hand: 左手
+
+左尺:
+  element: 水
+  organ: 肾
+  hand: 左手
+
+右寸:
+  element: 金
+  organ: 肺
+  hand: 右手
+
+右关:
+  element: 土
+  organ: 脾
+  hand: 右手
+
+右尺:
+  element: 水
+  organ: 肾
+  hand: 右手

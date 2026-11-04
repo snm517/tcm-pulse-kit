@@ -1,0 +1,27 @@
+# 十变映射
+# 急、大、缓、涩、沉五态及浮沉比判定
+
+急:
+  z_threshold: 1.5
+  fdr_threshold: 0.5
+  description: 脉来急数
+
+大:
+  z_threshold: 1.0
+  fdr_threshold: 0.3
+  description: 脉体宽大
+
+缓:
+  z_threshold: -1.0
+  fdr_threshold: -0.3
+  description: 脉来弛缓
+
+涩:
+  z_threshold: -1.5
+  fdr_threshold: -0.5
+  description: 脉来艰涩
+
+沉:
+  z_threshold: 0.0
+  fdr_threshold: 1.0
+  description: 脉位深沉

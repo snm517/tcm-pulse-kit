@@ -1,0 +1,27 @@
+# 五态权重配置
+# 支持动态调整各态判定权重
+
+急:
+  z_threshold: 1.5
+  fdr_threshold: 0.5
+  weight: 1.0
+
+大:
+  z_threshold: 1.0
+  fdr_threshold: 0.3
+  weight: 1.0
+
+缓:
+  z_threshold: -1.0
+  fdr_threshold: -0.3
+  weight: 1.0
+
+涩:
+  z_threshold: -1.5
+  fdr_threshold: -0.5
+  weight: 1.0
+
+沉:
+  z_threshold: 0.0
+  fdr_threshold: 1.0
+  weight: 1.0
